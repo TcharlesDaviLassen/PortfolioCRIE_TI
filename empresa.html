@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <script src="https://kit.fontawesome.com/94a61b71fb.js" crossorigin="anonymous"></script>
+    <title>Portfolio </title>
+</head>
+
+<body>
+
+    <header class="header">
+        <a id="banner">
+            <!-- <img class="logo__header--colored" src="images\img3.jpg" alt="Logo"> -->
+            <p class="logo__header--colored">tsdavi</p>
+        </a>
+        <label class="header__toggle" for="hamburguer">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <input id="hamburguer" class="header__check" type="checkbox" name="checkbox">
+        
+        <nav class="menu">
+            <ul class="menu__pointer-ul">
+                <li class="menu__li">
+                    <a class="menu__item item--active" href="index.html">Home</a>
+
+                    <a class="menu__item" href="sobre.html">Sobre</a>
+
+
+                    <a class="menu__item" href="trabalhos.html">Trabalhos</a>
+
+                    <a class="menu__item" style="color: rgb(255, 60, 0); background-color: #000000"
+                        href="empresa.html">Informe-se mais </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="quote">
+        <div class="container2">
+            <!-- Abertura da div - Essa div é responsavel por manter o  background de fundo, so altera o conteudo contido  -->
+
+            <!-- style="margin-bottom: 30px; color: black;" -->
+            <form>
+                <h2 class="container2__cadastro">Cadastre-se</h2>
+                <!-- Pra dar inicio ao formulario  -->
+
+                <div>
+                    <label for="name">Nome: </label>
+                    <input class="form-item" type="text" id="name" name="name" placeholder="Digite seu nome">
+                </div>
+
+
+                <div>
+                    <label for="email">E-mail: </label>
+                    <input class="form-item" type="email" id="email" name="email" placeholder="E-mail">
+                </div>
+
+                <div>
+                    <label for="phone">Telefone: </label>
+                    <input class="form-item" type="tel" id="phone" name="phone" placeholder="Telefone">
+                </div>
+
+                <div>
+                    <label for="product">Estado</label>
+                    <select class="form-item" name="product" name="product" id="A">
+                        <p class="A">Selecione </p>
+                        <option class="A" value=""> Selecione </option>
+
+                    </select>
+                </div>
+
+                <div>
+                    <label for="product">Cidade</label>
+                    <select class="form-item" name="product" name="product" id="A">
+                        <option class="A" value="">Selecione </option>
+
+                </div>
+
+                <div>
+                    <label for="message">Mensagem:</label>
+                    <textarea class="form-item" name="message" id="message" placeholder="Mensagem" rows="5"></textarea>
+                </div>
+
+                <section>
+                    <div>
+                        <input class="form-item-enviar" type="submit" value="Enviar">
+                    </div>
+                </section>
+
+            </form>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="containe3">
+            <!-- Abertura da div - Essa div é responsavel por manter o  background de fundo, so altera o conteudo contido  -->
+            <h5 style="color:#050303">Horário de disponibilidade </h5>
+
+            <h4 style="color:rgb(255, 60, 0)">De Segunda a Sexta-feira das 9 às 19hs. <br>
+                Aos Sábados das 9 às 18hs.
+            </h4>
+
+            <br>
+            <div>
+                <p style="color:#050303">Telefone</p> <a
+                    style="color:rgb(255, 60, 0); text-decoration: none;  background-color: rgba(255, 255, 255, 0); "
+                    href="tel:+(51) 989460084">(51) 989460084</a>
+            </div>
+            <br>
+
+            <div>
+                <p style="color:#050303">E-mail</p> <a
+                style="color:rgb(255, 60, 0); text-decoration: none; background-color: rgba(255, 255, 255, 0);"
+                href="mailto:tcharles.lassen@universo.univates.br"> 
+                    tcharles.lassen@universo.univates.br</a>
+            </div>
+            <br>
+
+            <!-- <address>
+                <p style="color:#050303">Enderesso</p>
+                <a class="contact__enderesso" style="color:rgb(255, 60, 0); font-size:15px; text-decoration: none;"
+                    href="https://goo.gl/maps/qAW8mZA71ucZTQmx8">Av. Avelino Talini,
+                    171 - Universitário, Lajeado - RS, <br />
+                    CEP: 95914-014</a>
+
+            </address> -->
+        </div>
+
+        <div class="maps">
+            <p style="color:#050303">Localização</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6948.816571977919!2d-51.956540176574094!3d-29.44608588552025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951c618a53718fdf%3A0x70b8ec4ae586d3b8!2sUnivates!5e0!3m2!1spt-BR!2sbr!4v1651166869616!5m2!1spt-BR!2sbr"
+                style=" border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+
+    </section>
+
+    <section>
+        <footer class="footer">
+            <div class="LogoBrancaFooter">
+                <img class="footer__logoBranca" src="images\img3.jpg" alt="Logo branca">
+                <h4 class="footer__Contact__h4" style="color:white">Contato:</h4>
+                <p class="footer__paragrafo">
+                    Universitário - Lajeado/ RS <br>
+                    95912-714<br>
+                    <strong>(51) 98946-0084 <br> tcharles.lassen@universo.univates.br</strong>
+                </p>
+            </div>
+
+            <div class="footer__HoraFotter">
+                <h4 class="footer__paragrafo__h4" style="color:white">Horario de disponibilidade: </h4>
+                <p class="footer__paragrafo">
+                    De Segunda a Sexta-feira das 9 às 17hs. <br />
+                    Aos Sábados das 9 às 12hs.
+                </p>
+            </div>
+
+            <div class="footer__icons">
+                <h4  class="footer__Contact__icons">Siga</h4>
+                <div class="icons_sociais" class="iconsImage">
+                    <a href="https://github.com/TcharlesDaviLassen"> <div class="footer__icons3"><i class="fa-brands fa-github"></i></div></a>
+                    <a href="https://www.linkedin.com/in/tcharlesdavilassen/"> <div class="footer__icons3"><i class="fa-brands fa-linkedin-in"></i></div></a>
+                    <a href=""> <div class="footer__icons3"><i class="fa-brands fa-twitter"></i></div></a>
+                    <a href=""> <div class="footer__icons3"><i class="fa-brands fa-instagram"></i></div></a> <br>
+                    <a href="tel:51 989460084"><div class="footer__icons3w"><i class="fa-brands fa-whatsapp"> 51 989460084</i></div> </a>
+                </div>
+            </div>
+
+            <p class="footer__paragrafoDeDesenvolvimento__footerBaixo">© 2022 pet&shop | Todos os direitos
+                reservados.
+                Desenvolvido por Crie_TI</p>
+            </div>
+        </footer>
+
+    </section>
+
+</body>
+
+</html>
