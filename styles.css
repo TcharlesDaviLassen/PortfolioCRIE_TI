@@ -10,9 +10,10 @@
 
 }
 
-body {
+/* body {
     background: linear-gradient(348.15deg, #2F2325 16.61%, #b43214 86.62%);
-}
+  
+} */
 
 
 /* Header */
@@ -26,7 +27,25 @@ header {
     right: 0;
     background-color: white;
     height: 90px;
-    z-index: 1;
+    margin-top:  5px;
+    z-index: 1;;
+
+    background-color: #151515;
+
+
+}
+
+.colorido {
+    display: flex;
+    margin-left: 50%;
+    width: 5px;
+    height: 1670px;
+    margin-top: -838px;
+    position: fixed;
+    top: 1.0%;
+    z-index: 2;
+    background: linear-gradient(180deg, #E39600 0%, #EA4C89 33.33%, #8F48EB 70.83%, #1DA1F2 100%);
+    transform: rotate(-90deg);
 }
 
 header {
@@ -40,7 +59,7 @@ nav>ul>li {
 
 .logo__header--colored {
     display: flex;
-    background-color: #ffffff;
+    background-color: #151515;
     height: 50px;
     width: 10vw;
     margin-right: auto;
@@ -51,8 +70,8 @@ nav>ul>li {
 
     font-size: 350%;
     /* color: #96240a; */
-    color: rgb(68, 68, 68);
-
+    color: rgb(91, 6, 248);
+    
 }
 
 #banner2 {
@@ -66,10 +85,10 @@ nav>ul>li {
     justify-content: space-between;
 
     text-align: center;
-    padding: 36px 26px;
+    padding: 34px 26px;
     text-decoration: none;
 
-    color: black;
+    color: rgb(255, 255, 255);
     border-radius: 30px;
 }
 
@@ -355,11 +374,11 @@ nav>ul>li {
     padding-top: 40px;
     padding-bottom: 10px;
     margin-bottom: 80px;
-    
-   
+
+
 }
 
-iframe{
+iframe {
     width: 420px;
     height: 210px;
 }
@@ -454,7 +473,20 @@ form textarea:focus {
         background-color: #ffffff;
         flex-direction: row-reverse;
         justify-content: left;
-        
+
+    }
+
+    .colorido {
+        display: flex;
+        margin-left: 50%;
+        width: 5px;
+        height: 1670px;
+        margin-top: -838px;
+        position: fixed;
+        top: 0.7%;
+        z-index: 2;
+        background: linear-gradient(180deg, #E39600 0%, #EA4C89 33.33%, #8F48EB 70.83%, #1DA1F2 100%);
+        transform: rotate(-90deg);
     }
 
     .fa-bars {
@@ -466,10 +498,10 @@ form textarea:focus {
         height: 50px;
         justify-content: space-between;
 
-        margin-left: 5rem;
+        margin-left: 6rem;
     }
 
-    
+
 
     .menu {
         display: block;
@@ -478,10 +510,10 @@ form textarea:focus {
         left: 0;
         right: 0;
         bottom: 0;
-        background-color: rgb(255, 60, 0);
+        background-color: #151515;
         transform: translateX(-100%);
         transition: transform 0.65s ease;
-      
+
 
     }
 
@@ -493,7 +525,7 @@ form textarea:focus {
     }
 
     .menu__item {
-    
+
         display: block;
         margin: 20px 0;
         text-decoration: none;
@@ -531,7 +563,7 @@ form textarea:focus {
         border-radius: 30px;
         border: 1px solid rgb(255, 60, 0);
         box-shadow: -1px 1px 10px rgb(0, 0, 0, .9);
-        transition: all 0.5s;
+        transition: all 0.5s ease;
         transition-duration: 0.5s;
     }
 
@@ -674,11 +706,12 @@ form textarea:focus {
         margin-top: 100px;
         background-color: #00000000;
     }
-    .container2__cadastro{
+
+    .container2__cadastro {
         color: #000000;
-        font-size:20px;
+        font-size: 20px;
         margin-bottom: 20px;
-        
+
     }
 
     .form-item {
@@ -692,7 +725,7 @@ form textarea:focus {
         outline: 1px solid gray;
         outline-offset: -1px;
         padding-right: 150px;
-       
+
         display: flex;
         box-shadow: 3px 6px 13px rgb(0 0 0 / 90%);
     }
@@ -702,7 +735,7 @@ form textarea:focus {
         flex-wrap: wrap;
         flex-direction: column;
         padding-top: 35rem;
-       
+
         margin-top: 30px;
 
         width: 100%;
@@ -728,11 +761,11 @@ form textarea:focus {
         width: 10px;
     }
 
-    iframe{
+    iframe {
         width: 290px;
         height: 210px;
     }
-    
+
 
 
 }
