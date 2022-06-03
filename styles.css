@@ -38,14 +38,17 @@ header {
 .colorido {
     display: flex;
     margin-left: 50%;
-    width: 5px;
-    height: 1670px;
-    margin-top: -838px;
+    width: 9px;
+    height: 1669px;
+    margin-top: -840px;
     position: fixed;
     top: 1.0%;
     z-index: 2;
     background: linear-gradient(180deg, #E39600 0%, #EA4C89 33.33%, #8F48EB 70.83%, #1DA1F2 100%);
     transform: rotate(-90deg);
+}
+.fa-d-and-d{
+ color: red;
 }
 
 header {
@@ -126,29 +129,30 @@ nav>ul>li {
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10rem;
-    margin-bottom: 30px;
+    margin-top: 4.5rem;
+    /* margin-bottom: 30px; */
     /* margin-bottom: 10rem; */
-    height: 90vh;
+    height: 90%;
+    width: 100%;
 
-    border-radius: 30px;
+    /* border-radius: 30px;
     border: 1px solid rgb(255, 60, 0);
     box-shadow: -1px 1px 10px rgb(0, 0, 0, .9);
 
-    transition: all 0.5s;
+    transition: all 0.5s; */
 }
 
-.section__banner:hover {
+/* .section__banner:hover {
     transform: scale(1.1);
     transition-duration: 600ms;
 
-}
+} */
 
 /* Paragrafo na aba sobre */
 .h6 {
     font-size: 20px;
     text-align: center;
-    margin-top: 3%;
+    margin-top: -10%;
 
 }
 
@@ -210,13 +214,26 @@ nav>ul>li {
     padding-right: 150px;
     display: inline-block;
 }
+.icon__telegram{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: -50px;
+    
+  
+}
+.fa-telegram{
+    font-size: 6vw;
+    /* width: 10vw; */
+    width: 15vw;
+    color: #31a6e2;
+}
 
 /* footer */
 .footer {
     align-items: center;
     background-color: #000000ea;
     padding: 0 50px;
-    margin-top: 200px;
+    margin-top: 70px;
 }
 
 .footer__logoBranca {
@@ -418,7 +435,7 @@ iframe {
 
     display: flex;
 
-    box-shadow: 3px 6px 13px rgb(0, 0, 0, .9);
+    /* box-shadow: 3px 6px 13px rgb(0, 0, 0, .9); */
 }
 
 input.form-item-enviar {
@@ -479,11 +496,11 @@ form textarea:focus {
     .colorido {
         display: flex;
         margin-left: 50%;
-        width: 5px;
+        width: 7px;
         height: 1670px;
-        margin-top: -838px;
+        margin-top: -840px;
         position: fixed;
-        top: 0.7%;
+        top: 1.0%;
         z-index: 2;
         background: linear-gradient(180deg, #E39600 0%, #EA4C89 33.33%, #8F48EB 70.83%, #1DA1F2 100%);
         transform: rotate(-90deg);
@@ -559,12 +576,10 @@ form textarea:focus {
         margin-right: auto;
         margin-top: 10rem;
         margin-bottom: 0rem;
-        height: 30vh;
+        /* height: 30vh;
         border-radius: 30px;
-        border: 1px solid rgb(255, 60, 0);
+        border: 1px solid rgb(255, 60, 0); */
         box-shadow: -1px 1px 10px rgb(0, 0, 0, .9);
-        transition: all 0.5s ease;
-        transition-duration: 0.5s;
     }
 
     .section__animacao {
@@ -579,6 +594,22 @@ form textarea:focus {
         padding-right: 0px;
         display: inline-block;
 
+
+    }
+
+    .icon__telegram{
+        display: flex;
+        flex-direction: row-reverse;
+        margin-bottom: -50px;
+        
+      
+    }
+    .fa-telegram{
+        font-size: 13vw;
+        /* width: 10vw; */
+        width: 15vw;
+       /* color: #8106e6; */
+       color: #31a6e2;
 
     }
 
