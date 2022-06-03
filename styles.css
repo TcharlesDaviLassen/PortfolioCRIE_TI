@@ -27,8 +27,9 @@ header {
     right: 0;
     background-color: white;
     height: 90px;
-    margin-top:  5px;
-    z-index: 1;;
+    margin-top: 5px;
+    z-index: 1;
+    ;
 
     background-color: #151515;
 
@@ -47,8 +48,9 @@ header {
     background: linear-gradient(180deg, #E39600 0%, #EA4C89 33.33%, #8F48EB 70.83%, #1DA1F2 100%);
     transform: rotate(-90deg);
 }
-.fa-d-and-d{
- color: red;
+
+.fa-d-and-d {
+    color: red;
 }
 
 header {
@@ -74,7 +76,7 @@ nav>ul>li {
     font-size: 350%;
     /* color: #96240a; */
     color: rgb(91, 6, 248);
-    
+
 }
 
 #banner2 {
@@ -214,14 +216,16 @@ nav>ul>li {
     padding-right: 150px;
     display: inline-block;
 }
-.icon__telegram{
+
+.icon__telegram {
     display: flex;
     flex-direction: row-reverse;
     margin-bottom: -50px;
-    
-  
+
+
 }
-.fa-telegram{
+
+.fa-telegram {
     font-size: 6vw;
     /* width: 10vw; */
     width: 15vw;
@@ -574,7 +578,7 @@ form textarea:focus {
         align-items: center;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 10rem;
+        margin-top: 5rem;
         margin-bottom: 0rem;
         /* height: 30vh;
         border-radius: 30px;
@@ -597,19 +601,20 @@ form textarea:focus {
 
     }
 
-    .icon__telegram{
+    .icon__telegram {
         display: flex;
         flex-direction: row-reverse;
         margin-bottom: -50px;
-        
-      
+
+
     }
-    .fa-telegram{
+
+    .fa-telegram {
         font-size: 13vw;
         /* width: 10vw; */
         width: 15vw;
-       /* color: #8106e6; */
-       color: #31a6e2;
+        /* color: #8106e6; */
+        color: #31a6e2;
 
     }
 
@@ -673,7 +678,7 @@ form textarea:focus {
     /* Sobre */
     .h6 {
         font-size: 20px;
-        margin-top: -20%;
+        margin-top: 3%;
     }
 
     .fa-circle-plus {
@@ -713,9 +718,9 @@ form textarea:focus {
         margin-right: auto;
         margin-left: auto;
         width: 100vw;
-        border: 3px solid rgb(255, 60, 0);
-        border-radius: 30px;
-        box-shadow: 10px 20px 10px rgb(0 0 0 / 90%);
+        /* border: 3px solid rgb(255, 60, 0); */
+        border-radius: 10px;
+        /* box-shadow: 10px 20px 10px rgb(0 0 0 / 90%); */
     }
 
     /* Formulario */
@@ -758,7 +763,7 @@ form textarea:focus {
         padding-right: 150px;
 
         display: flex;
-        box-shadow: 3px 6px 13px rgb(0 0 0 / 90%);
+        /* box-shadow: 3px 6px 13px rgb(0 0 0 / 90%); */
     }
 
     .containe3 {
