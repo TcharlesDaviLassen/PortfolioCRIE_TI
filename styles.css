@@ -223,11 +223,11 @@ nav>ul>li {
     /* margin-bottom: 30px; */
 
     /* z-index: 1!important; */
-    display: inline!important;
-    bottom: 20px!important;
+    display: inline !important;
+    bottom: 20px !important;
 
-    position: fixed!important;
-    right: -150px!important;
+    position: fixed !important;
+    right: -150px !important;
 
     margin-left: 0rem;
 }
@@ -361,13 +361,11 @@ nav>ul>li {
     margin-right: auto;
     margin-left: auto;
 
-
     width: 40vw;
 
-    border: 3px solid rgb(255, 60, 0);
+    border: 1px solid rgb(255, 60, 0);
     border-radius: 30px;
     box-shadow: 10px 20px 10px rgb(0, 0, 0, .9);
-
 }
 
 .trabalho__image__header {
@@ -616,26 +614,26 @@ form textarea:focus {
         /* display: flex; */
         /* flex-direction: row-reverse; */
         /* margin-bottom: 30px; */
-    
+
         /* z-index: 1!important; */
-        display: block!important;
-        bottom: 20px!important;
-    
-        position: fixed!important;
-        right: -20px!important;
-    
+        display: block !important;
+        bottom: 20px !important;
+
+        position: fixed !important;
+        right: -20px !important;
+
         margin-left: 0rem;
     }
-    
-    
-    
+
+
+
     .fa-telegram {
         font-size: 8vw;
         /* width: 10vw; */
         width: 15vw;
         color: #31a6e2;
-    
-    
+
+
     }
 
     /* Footer */
@@ -733,13 +731,17 @@ form textarea:focus {
     .trabalho__image {
         display: flex;
         margin-top: 150px;
-        /* margin-left: 20px; */
         margin-right: auto;
         margin-left: auto;
         width: 100vw;
-        /* border: 3px solid rgb(255, 60, 0); */
         border-radius: 10px;
-        /* box-shadow: 10px 20px 10px rgb(0 0 0 / 90%); */
+
+        border:  1px solid rgb(255, 60, 0);
+        border-radius: 10px;
+        box-shadow: 10px 20px 10px rgb(0, 0, 0, .0);
+
+
+
     }
 
     /* Formulario */
