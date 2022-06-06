@@ -69,9 +69,11 @@ nav>ul>li {
     width: 10vw;
     margin-right: auto;
     margin-left: auto;
+    
 
-    border-radius: 10px;
-    font-family: 'Effort', sans-serif;
+    /* border-radius: 10px; */
+    /* font-family: 'Effort', sans-serif; */
+    font-family: 'Times New Roman', Times, serif;
 
     font-size: 350%;
     /* color: #96240a; */
@@ -528,7 +530,7 @@ form textarea:focus {
         height: 50px;
         justify-content: space-between;
 
-        margin-left: 6rem;
+        margin-left: 4.5rem;
     }
 
 
